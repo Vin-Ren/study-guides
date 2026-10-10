@@ -1,0 +1,9 @@
+# OS/editor metadata
+.DS_Store
+Thumbs.db
+Desktop.ini
+.vscode/
+.idea/
+
+# Local preview/build output
+_site/
