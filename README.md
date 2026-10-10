@@ -5,6 +5,7 @@ A collection of browser-friendly study guides, revision notes, and practice mate
 ## Contents
 
 - [Semester 5 — RPL — Midterm Prep](semester-5/RPL/Midterm-Prep/)
+- [Semester 5 — GeoKom — Midterm Prep](semester-5/GeoKom/Midterm-prep/)
 
 ## Add a new guide
 
