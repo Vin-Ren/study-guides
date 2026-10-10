@@ -1,0 +1,327 @@
+[
+  {
+    "topic": "Software engineering",
+    "ref": "L01 pp. 6–8",
+    "stem": "A deployed program works initially, then each hurried maintenance change causes new defects. Which explanation best matches the lecture's software failure curve?",
+    "options": [
+      "Software physically wears out as hardware does.",
+      "Changes can introduce side effects, so deterioration reflects accumulated defects.",
+      "The first version necessarily had no defects.",
+      "The failure rate must always rise at a constant rate."
+    ],
+    "answer": 1,
+    "explanation": "Software does not wear physically. The curve illustrates how changes can introduce side effects and cause defect spikes; disciplined maintenance can reduce that effect. A clean initial release and a constant rate are not implied."
+  },
+  {
+    "topic": "Software engineering",
+    "ref": "L01 pp. 15–17",
+    "stem": "A team buys sophisticated test and deployment tools but has no shared workflow or quality practices. Which layer is most directly missing beneath the tools?",
+    "options": [
+      "Only the programming language",
+      "Process, methods, and a quality focus",
+      "Only a larger test server",
+      "Only a new project manager"
+    ],
+    "answer": 1,
+    "explanation": "In the layered technology diagram, quality focus supports process; process organizes methods; tools support those methods. A tool purchase cannot supply the missing underlying practice."
+  },
+  {
+    "topic": "Problem solving",
+    "ref": "L01 pp. 19–23",
+    "stem": "Before coding a clinic system, the team identifies stakeholders, missing information, and constraints. Which Polya-inspired step is it performing?",
+    "options": [
+      "Understand the problem",
+      "Carry out the plan",
+      "Examine the result",
+      "Deploy the result"
+    ],
+    "answer": 0,
+    "explanation": "Questions about stakeholders, unknowns, and constraints belong to understanding the problem. Carrying out and examining occur after a solution plan exists; deployment is a separate lifecycle activity."
+  },
+  {
+    "topic": "Process framework",
+    "ref": "L02 pp. 13–19",
+    "stem": "Which ordering follows the five generic framework activities?",
+    "options": [
+      "Planning → communication → construction → modeling → deployment",
+      "Communication → planning → modeling → construction → deployment",
+      "Communication → modeling → planning → deployment → construction",
+      "Requirements → testing → design → coding → maintenance"
+    ],
+    "answer": 1,
+    "explanation": "The framework names communication, planning, modeling, construction, and deployment in that sequence. Iterations may revisit activities, but that does not change their names or the conceptual flow."
+  },
+  {
+    "topic": "Process models",
+    "ref": "L03 pp. 5–9",
+    "stem": "A team wants every development stage paired with a corresponding test level planned early. Which model gives the clearest visual mapping?",
+    "options": [
+      "V-shaped model",
+      "Throwaway prototyping",
+      "Spiral model",
+      "Scrum"
+    ],
+    "answer": 0,
+    "explanation": "The V-shaped model pairs specification and design activities with verification and validation activities. The other models emphasize feedback, risk, or iteration rather than that paired test structure."
+  },
+  {
+    "topic": "Process models",
+    "ref": "L03 pp. 18–26",
+    "stem": "Users cannot describe a form until they see one. A quick mock-up is built solely to discover requirements, then discarded before production construction. Which choice is it?",
+    "options": [
+      "Evolutionary production prototype",
+      "Throwaway prototype",
+      "Final increment",
+      "Transition phase"
+    ],
+    "answer": 1,
+    "explanation": "A throwaway prototype tests understanding and is deliberately discarded. An evolutionary prototype is refined into the product; an increment and a transition phase describe different lifecycle ideas."
+  },
+  {
+    "topic": "Process models",
+    "ref": "L03 pp. 27–33",
+    "stem": "A safety-critical system faces uncertain technology and costly failure. What makes the spiral model especially suitable?",
+    "options": [
+      "It eliminates iteration.",
+      "Each cycle explicitly identifies and resolves risks.",
+      "It forbids prototypes.",
+      "It requires no stakeholder evaluation."
+    ],
+    "answer": 1,
+    "explanation": "Risk analysis is explicit in each spiral cycle, followed by development and evaluation. The model is iterative and can use prototypes; stakeholder evaluation remains important."
+  },
+  {
+    "topic": "Unified Process",
+    "ref": "L03 pp. 34–45",
+    "stem": "In the Unified Process, a team stabilizes the architecture and addresses major technical risks before large-scale construction. Which phase is this?",
+    "options": [
+      "Inception",
+      "Elaboration",
+      "Construction",
+      "Transition"
+    ],
+    "answer": 1,
+    "explanation": "Elaboration establishes an architectural baseline and tackles significant risks. Inception establishes scope and business case; construction builds the product; transition puts it into users' hands."
+  },
+  {
+    "topic": "Agile",
+    "ref": "L04 pp. 7–15",
+    "stem": "A client changes priorities after seeing a working increment. Which response most closely follows the agile principles in the slides?",
+    "options": [
+      "Reject the change because the original plan is fixed.",
+      "Discuss the change and adapt the next increment while protecting quality.",
+      "Stop collaborating until a complete new contract is signed.",
+      "Remove all planning and documentation."
+    ],
+    "answer": 1,
+    "explanation": "Agility values collaboration, working software, and response to change. It still requires planning and quality work; the manifesto does not say to eliminate them."
+  },
+  {
+    "topic": "Agile methods",
+    "ref": "L04 pp. 22–34",
+    "stem": "A Scrum team has regular sprint events but integration defects keep accumulating. Which addition directly addresses engineering practice?",
+    "options": [
+      "Longer Daily Scrums",
+      "XP practices such as continuous integration, testing, and refactoring",
+      "A second Product Owner",
+      "Removing sprint reviews"
+    ],
+    "answer": 1,
+    "explanation": "Scrum supplies roles and events; XP includes concrete coding practices. More meetings or altered roles do not repair the build and design discipline causing integration defects."
+  },
+  {
+    "topic": "Requirements",
+    "ref": "L05 pp. 6–10, 31–32",
+    "stem": "‘The system shall return search results within two seconds for 95% of requests’ is best classified as what?",
+    "options": [
+      "A functional requirement",
+      "A nonfunctional performance requirement",
+      "A use-case actor",
+      "A class invariant"
+    ],
+    "answer": 1,
+    "explanation": "It constrains a measurable quality of service, performance, rather than naming a business function. Actors and invariants belong to other modeling levels."
+  },
+  {
+    "topic": "Requirement quality",
+    "ref": "L05 pp. 33–35",
+    "stem": "Which requirement is easiest to verify objectively?",
+    "options": [
+      "The interface shall be user friendly.",
+      "Search shall be very fast.",
+      "For 95% of requests under the stated test load, search results shall appear within two seconds.",
+      "The system shall use a modern architecture."
+    ],
+    "answer": 2,
+    "explanation": "A measurable threshold and stated conditions permit a repeatable check. ‘User friendly,’ ‘very fast,’ and ‘modern’ are ambiguous without criteria."
+  },
+  {
+    "topic": "Use-case relationships",
+    "ref": "L06 pp. 15–18, 30–33",
+    "stem": "An ATM always completes Transfer Funds, then optionally prints a receipt when the customer chooses it. How should printing be related to transfer?",
+    "options": [
+      "Print Receipt «include» Transfer Funds",
+      "Print Receipt «extend» Transfer Funds",
+      "Transfer Funds generalizes Print Receipt",
+      "Print Receipt is an independent goal available at any time"
+    ],
+    "answer": 1,
+    "explanation": "Optional behavior extends the base Transfer Funds use case. Include means mandatory reused behavior. A standalone Print Receipt association would falsely allow receipt printing outside the transfer flow."
+  },
+  {
+    "topic": "Use-case boundaries",
+    "ref": "L06 pp. 13–15, 34–37",
+    "stem": "Couriers physically deliver parcels and update parcel status in the system. Which is a system use case?",
+    "options": [
+      "Drive to Destination",
+      "Carry Parcel",
+      "Update Parcel Status",
+      "Wear Uniform"
+    ],
+    "answer": 2,
+    "explanation": "A use case describes a system service that benefits an actor. Physical delivery actions occur outside the software boundary; recording status is a system interaction."
+  },
+  {
+    "topic": "Use-case specification",
+    "ref": "L06 pp. 36–37, 46–49",
+    "stem": "A student logs in once and then views several course pages. What is the best way to express authentication for View Course Page?",
+    "options": [
+      "Make Log In a mandatory «include» on every view.",
+      "State that the student is authenticated as a precondition.",
+      "Turn username entry into a separate use case.",
+      "Omit authentication from every model and specification."
+    ],
+    "answer": 1,
+    "explanation": "The prerequisite is an already authenticated session. A mandatory include would imply logging in on every view; username entry is only a step. The precondition records the real rule explicitly."
+  },
+  {
+    "topic": "DFD notation",
+    "ref": "L07 pp. 8–11, 35–36",
+    "stem": "Which DFD fragment obeys the basic naming and connection rules?",
+    "options": [
+      "Customer → Customer Record, with no process",
+      "Order Data → Validate Order → Validated Order, with verb-noun process and noun flows",
+      "Validate Order → Customer → Order Store",
+      "Customer ↔ Validate Order on one two-headed arrow"
+    ],
+    "answer": 1,
+    "explanation": "Processes use action verb phrases, flows use noun labels, and each flow touches a process. Direct entity-to-store transfer, treating an entity as a transform, and two-headed arrows violate the slide rules."
+  },
+  {
+    "topic": "DFD decomposition",
+    "ref": "L07 pp. 25–37",
+    "stem": "A parent process receives Application and sends Decision. Its child diagram receives Application but sends only Receipt. What is wrong?",
+    "options": [
+      "Nothing; child diagrams may change external outputs freely.",
+      "The child diagram is unbalanced because Decision disappeared at its boundary.",
+      "A data store must appear on the context diagram.",
+      "The parent process should be renamed with a noun only."
+    ],
+    "answer": 1,
+    "explanation": "Balancing requires the child's external input and output flows, at the decomposition boundary, to match the parent's. Internal flows may differ; the missing Decision is a boundary mismatch."
+  },
+  {
+    "topic": "DFD validation",
+    "ref": "L07 pp. 35–38",
+    "stem": "A DFD has valid symbols and balanced flows, but users say it omits the real approval step. Which validation has failed?",
+    "options": [
+      "Syntax only",
+      "Semantic accuracy",
+      "Multiplicity notation",
+      "Class visibility"
+    ],
+    "answer": 1,
+    "explanation": "Syntax asks whether notation and structural rules are followed. Semantic validation asks whether the model accurately represents the business process; user walkthroughs reveal the missing approval."
+  },
+  {
+    "topic": "Class relationships",
+    "ref": "L08 pp. 27–30, 43–45",
+    "stem": "A purchase can have several payments, and each payment has its own date and amount. Where should the payment date and amount go?",
+    "options": [
+      "On Customer because a customer pays",
+      "On Purchase because all payments share one purchase",
+      "On Payment, associated with Purchase",
+      "Only on the association between Customer and Cashier"
+    ],
+    "answer": 2,
+    "explanation": "Each payment occurrence owns its own date and amount, so Payment is the proper class and is linked to its Purchase. Putting repeated payment facts on Customer or Purchase loses per-payment identity."
+  },
+  {
+    "topic": "Multiplicity",
+    "ref": "L08 pp. 27–28, 41–42",
+    "stem": "One lecturer may teach many classes and one class may have several lecturers. Which multiplicities express the stated possibility at both association ends?",
+    "options": [
+      "1 at both ends",
+      "0..* at both ends, unless the domain also requires participation",
+      "0..* beside Lecturer and 1 beside Class",
+      "Multiplicity belongs in the middle of the line"
+    ],
+    "answer": 1,
+    "explanation": "A number beside a class says how many instances of that class can be linked to one instance at the opposite end. ‘May’ permits zero; if the case instead requires at least one, use 1..*. The diagram must place multiplicities at the relevant ends."
+  },
+  {
+    "topic": "Whole-part relationships",
+    "ref": "L08 pp. 32–34",
+    "stem": "A room is modeled as a part whose identity and lifetime depend on its building. Which notation expresses that strong whole-part relationship?",
+    "options": [
+      "A hollow diamond at Room",
+      "A filled diamond at Building",
+      "A generalization triangle at Room",
+      "An «extend» arrow at Building"
+    ],
+    "answer": 1,
+    "explanation": "Composition uses a filled diamond at the whole, Building. A hollow diamond means shared aggregation; the other symbols represent inheritance or use-case extension."
+  },
+  {
+    "topic": "Model consistency",
+    "ref": "L09 pp. 8–12",
+    "stem": "A CRC card lists Payment as a collaborator of Purchase, but the class diagram has no relationship between them. What should the walkthrough flag?",
+    "options": [
+      "Nothing; CRC collaborators never affect class diagrams.",
+      "A structural consistency gap: collaborators imply a relationship to represent.",
+      "Only a DFD syntax error.",
+      "A reason to delete the Payment class immediately."
+    ],
+    "answer": 1,
+    "explanation": "Structural V&V checks that CRC responsibilities, attributes, collaborators, and relationships are reflected in the class diagram. The missing link requires investigation; it does not automatically mean the class should be deleted."
+  },
+  {
+    "topic": "Cohesion and coupling",
+    "ref": "L10 pp. 6–12",
+    "stem": "Flight stores an airport's name, city, gate policy, and maintenance contact even though Airport already owns those facts. Which change best improves class cohesion without losing the flight's route?",
+    "options": [
+      "Delete Airport and keep all fields on Flight.",
+      "Keep Airport facts on Airport and give Flight departure and arrival relationships to Airport.",
+      "Copy every Airport field into each booking.",
+      "Create a global variable holding all airport facts."
+    ],
+    "answer": 1,
+    "explanation": "Flight should represent the flight; Airport should own airport facts. Role-labeled departure and arrival links preserve the route while avoiding duplicated unrelated state. Deleting Airport, copying fields, or using global state increases confusion and dependence."
+  },
+  {
+    "topic": "Contracts and constraints",
+    "ref": "L10 pp. 38–43",
+    "stem": "A rental return method requires an active rental, must record the actual return time after success, and must never leave a negative fine. Which labels are correct?",
+    "options": [
+      "Active rental: invariant; recorded return time: precondition; nonnegative fine: postcondition only",
+      "Active rental: precondition; recorded return time: postcondition; nonnegative fine: invariant",
+      "All three are preconditions",
+      "All three are method parameters"
+    ],
+    "answer": 1,
+    "explanation": "An active rental is required before the method runs, recording return time is the promised result after success, and nonnegative fine is a rule that valid rental objects must always satisfy. A contract documents these obligations for a public method."
+  },
+  {
+    "topic": "Class and method design",
+    "ref": "L10 pp. 6–18, 19–23, 39–43",
+    "stem": "Checkout calls sale.getPayment().getAmountTendered(). Which revision most directly reduces the Law of Demeter violation?",
+    "options": [
+      "Move all payment fields into Checkout.",
+      "Ask Sale for a paymentAmount() result and let Sale collaborate with Payment.",
+      "Make every Payment field public.",
+      "Add more chained getters so Checkout can inspect all nested objects."
+    ],
+    "answer": 1,
+    "explanation": "The call chain makes Checkout know Sale's internal collaborator. A Sale method can answer the requested amount while containing that collaboration. Public fields and longer chains increase coupling; moving all state ignores responsibility and cohesion."
+  }
+]
